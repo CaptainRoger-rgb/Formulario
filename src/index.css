@@ -1,0 +1,75 @@
+/* Estilos del formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  margin-bottom: 15px; /* Ajuste de espacio entre los inputs */
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Agregar borde a los inputs */
+  box-sizing: border-box;
+}
+
+input {
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745; /* Color del botón "Enviar" */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="reset"] {
+  background-color: #00cfff; /* Color del botón "Restablecer" */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Estilo para los encabezados del formulario y lista */
+h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilos para la lista de estudiantes */
+.list-container {
+  max-width: 400px; /* Ajustar el tamaño de la lista */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #ccc; /* Borde alrededor del cuadro */
+}
+
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}
+
+.list-item span {
+  font-style: italic;
+  color: #555;
+}
